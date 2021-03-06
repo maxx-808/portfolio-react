@@ -1,6 +1,6 @@
 import React from "react";
 
-function Projcet(props) {
+function Project(props) {
   return (
     <div className="card port-card">
       <div className="img-container">
