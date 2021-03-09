@@ -15,13 +15,13 @@ function Project(props) {
             <strong>Project Description: </strong> {props.description}
           </li>
           <li>
-            <strong>Repository: </strong>{" "}
+            <strong>Repository: </strong>
             <a target="blank" href={props.repo}>
               {props.repo}
             </a>
           </li>
           <li>
-            <strong>Deployed App: </strong>{" "}
+            <strong>Deployed App: </strong>
             <a target="blank" href={props.location}>
               {props.location}
             </a>
