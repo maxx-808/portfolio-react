@@ -1,13 +1,10 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">
-        Max Higa
-      </a>
+      <a className="navbar-brand">Max Higa</a>
       <button
         className="navbar-toggler"
         type="button"
