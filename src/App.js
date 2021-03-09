@@ -14,9 +14,13 @@ function App() {
       <div className="App">
         <Header />
 
-        <Route exact path="/" component={Home} />
-        <Route exact path="/projects" component={ProjectPage} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/portfolio-react#/" component={Home} />
+        <Route
+          exact
+          path="/portfolio-react#/projects"
+          component={ProjectPage}
+        />
+        <Route exact path="/portfolio-react#/contact" component={Contact} />
 
         <Footer />
       </div>

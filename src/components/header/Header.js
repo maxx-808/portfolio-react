@@ -19,17 +19,17 @@ const Header = () => {
       <div className="collapse navbar-collapse dropdown" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="portfolio-react#/">
+            <a className="nav-link" href="/portfolio-react#/">
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="portfolio-react#/projects">
+            <a className="nav-link" href="/portfolio-react#/projects">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="portfolio-react#/contact">
+            <a className="nav-link" href="/portfolio-react#/contact">
               Contact Information
             </a>
           </li>
