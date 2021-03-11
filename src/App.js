@@ -10,21 +10,17 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <HashRouter basename="/">
-      <div className="App">
+    <div className="App">
+      <HashRouter basename="/">
         <Header />
 
-        <Route exact path="/portfolio-react#/" component={Home} />
-        <Route
-          exact
-          path="/portfolio-react#/projects"
-          component={ProjectPage}
-        />
-        <Route exact path="/portfolio-react#/contact" component={Contact} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/projects" component={ProjectPage} />
+        <Route exact path="/contact" component={Contact} />
 
         <Footer />
-      </div>
-    </HashRouter>
+      </HashRouter>
+    </div>
   );
 }
 
