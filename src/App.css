@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
+  background-color: #9dbcbc;
+  color: #006666;
 }
 
 .App-logo {
@@ -42,9 +46,10 @@
 }
 
 .card {
-  width: 32%;
+  width: 31%;
   padding: 10px;
   margin: 10px;
+  background-color: #fff5bb;
 }
 @media screen and (max-width: 1536px) {
   .card {
@@ -68,4 +73,18 @@
 
 ul {
   list-style: none;
+  padding: 10px;
+}
+
+.container {
+  padding-bottom: 3rem;
+  position: relative;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }

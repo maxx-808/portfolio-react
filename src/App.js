@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={ProjectPage} />
         <Route exact path="/contact" component={Contact} />
-
+        <br />
         <Footer />
       </HashRouter>
     </div>

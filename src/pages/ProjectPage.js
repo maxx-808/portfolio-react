@@ -5,7 +5,7 @@ import Project from "../components/project/Project";
 const ProjectPage = () => {
   console.log(projects);
   return (
-    <div className="conatiner portfolio-container">
+    <div className="container portfolio-container">
       <h1>List of My Projects</h1>
       <div className="row">
         {projects.map(

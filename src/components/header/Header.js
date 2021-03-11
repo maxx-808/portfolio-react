@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <a className="navbar-brand">Max Higa</a>
       <button
         className="navbar-toggler"

@@ -1,10 +1,11 @@
 import React from "react";
+import "../../assets/projects.json";
 
 function Project(props) {
   return (
     <div className="card" key={props.id}>
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img width="280px" alt={props.name} src={props.image} />
       </div>
       <div className="content">
         <ul>

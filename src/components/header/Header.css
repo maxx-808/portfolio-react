@@ -2,12 +2,13 @@
   display: block;
 }
 
-/* nav {
-  z-index: 999;
-} */
 #dropdown {
   position: fixed;
   top: 0;
   left: 100px;
   z-index: 999;
+}
+
+.navbar {
+  background-color: #fff5bb;
 }
