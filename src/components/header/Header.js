@@ -28,11 +28,6 @@ const Header = () => {
               Projects
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/portfolio-react#/contact">
-              Contact Information
-            </a>
-          </li>
         </ul>
       </div>
     </nav>

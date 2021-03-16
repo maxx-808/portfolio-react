@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <div className="container about-container">
       <h1>About Me</h1>
-      <card>
+      <div className="card">
         <p>
           Currently enrolled in a full stack coding bootcamp from UC Berkeley
           Extension. This class is set to end on March 27, 2021 and I started
@@ -17,8 +17,10 @@ const Home = () => {
           JavaScript. Mostly sticking to HTML, CSS, and JavaScript; we have
           expanded into their libraries and attached programs and styles.
         </p>
-        <br />
-        <h4>Some things I have learned so far:</h4>
+      </div>
+      <br />
+      <h4>Some things I have learned so far:</h4>
+      <div className="card">
         <ul>
           <li>Basics of HTML, CSS, JavaScript</li>
           <li>CSS libraries like bootstrap and materialize</li>
@@ -45,7 +47,7 @@ const Home = () => {
           there and it has helped me to have a good work ethic during the class
           I am currently in.
         </p>
-      </card>
+      </div>
     </div>
   );
 };
