@@ -1,11 +1,13 @@
 import React from "react";
 import "../../assets/projects.json";
 
+const baseURL = process.env.PUBLIC_URL;
+
 function Project(props) {
   return (
-    <div className="card" key={props.id}>
+    <div className="card project-card" key={props.id}>
       <div className="img-container">
-        <img width="280px" alt={props.name} src={props.image} />
+        <img width="280px" alt={props.name} src={baseURL + props.image} />
       </div>
       <div className="content">
         <ul>
