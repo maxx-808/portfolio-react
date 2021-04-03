@@ -2,8 +2,8 @@
   text-align: center;
   position: relative;
   min-height: 100vh;
-  background-color: #9dbcbc;
-  color: #006666;
+  background-color: #222831;
+  color: #00adb5;
 }
 
 .App-header {
@@ -28,14 +28,14 @@
 .card {
   padding: 10px;
   margin: 10px;
-  background-color: #fff5bb;
+  background-color: #393e46;
 }
 
 .project-card {
   width: 31%;
   padding: 10px;
   margin: 10px;
-  background-color: #fff5bb;
+  background-color: #393e46;
 }
 @media screen and (max-width: 1536px) {
   .card {
@@ -71,7 +71,7 @@ ul {
 footer {
   margin-top: 40px;
   padding-bottom: 10px;
-  position: static;
+  position: sticky;
   bottom: 0px;
   width: 100%;
 }
