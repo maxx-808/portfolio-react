@@ -1,70 +1,75 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React-Portfolio
 
-## Available Scripts
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+[Description](#description)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Steps](#steps)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Usage Information](#usage-information)
 
-### `npm test`
+[Contributors](#contributors)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[User Guidelines](#user-guidelines)
 
-### `npm run build`
+[Test Instructions](#test-instructions)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Questions?](#questions?)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a name="description"></a>
 
-### `npm run eject`
+## Description:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Homework week 20, writing our Portfolios in React. This project is to display my portfolio as an app based on React. using a component to map out the projects added and having a header and footer that stays on the page when changing pages.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a name="steps"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Steps:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+clone repo, npm install in develop directory or open through gh-pages url
 
-## Learn More
+<a name="usage-information"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage Information:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This app is to showcase my Portfolio and my projects I have done.
 
-### Code Splitting
+<a name="contributors"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributors
 
-### Analyzing the Bundle Size
+Max Higa
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<a name="user-guidelines"></a>
 
-### Making a Progressive Web App
+## User Guidelines:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+remake portfolio using react.
 
-### Advanced Configuration
+<a name="test-instrucions"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Test Instructions:
 
-### Deployment
+once installed npm run dev. click gh-pages url if running from repo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<a name="questions?"></a>
 
-### `npm run build` fails to minify
+## Questions?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can contact me through:
+
+## Github Profile: 
+
+https://www.github.com/maxx-808
+
+## Github Deployable URL:
+
+https://maxx-808.github.io/portfolio-react/
+
+## Email Address: 
+
+maxhiga.hawaii@gmail.com
