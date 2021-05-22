@@ -9,7 +9,10 @@ const ProjectPage = () => {
       <h1>List of My Projects</h1>
       <div className="row">
         {projects.map(
-          ({ project_name, image, description, repo, location }, index) => (
+          (
+            { project_name, image, description, repo, location, skills },
+            index
+          ) => (
             <Project
               key={index}
               name={project_name}
@@ -17,6 +20,7 @@ const ProjectPage = () => {
               description={description}
               repo={repo}
               location={location}
+              skills={skills}
             />
           )
         )}

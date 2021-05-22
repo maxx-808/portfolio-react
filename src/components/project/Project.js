@@ -18,6 +18,9 @@ function Project(props) {
             <strong>Project Description: </strong> {props.description}
           </li>
           <li>
+            <strong>Technical Skills: </strong> {props.skills}
+          </li>
+          <li>
             <strong>Repository: </strong>
             <a target="blank" href={props.repo}>
               {props.repo}
